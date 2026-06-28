@@ -1,0 +1,5 @@
+browser-use
+openai
+python-dotenv
+groq
+playwright==1.56.0

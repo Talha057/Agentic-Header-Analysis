@@ -1,0 +1,27 @@
+services:
+  phish-analyzer:
+    build: .
+    volumes:
+      - ./reports:/app/reports
+      - ./skills:/app/skills:ro
+      - ./main.py:/app/main.py
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - DISPLAY=:99
+    ports:
+      - "5900:5900"  # VNC port
+    mem_limit: 4g
+    cpus: 2
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_ADMIN
+    networks:
+      - isolated_net
+
+networks:
+  isolated_net:
+    driver: bridge

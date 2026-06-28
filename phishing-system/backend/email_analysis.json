@@ -1,0 +1,52 @@
+{
+  "users": {
+    "default_user": {
+      "emails": {
+        "19b8ceb337ebde34": {
+          "analyzed_at": "2026-01-05T11:53:49.297514",
+          "verdict": "Legit",
+          "total_score": 99,
+          "from_address": "Indeed <alert@indeed.com>",
+          "subject": "Associate Software Developer at BariTechSol and 27 more developer jobs in Karachi for you!",
+          "date": "Mon, 05 Jan 2026 06:49:42 +0000",
+          "gpt_verdict": "Legitimate",
+          "gpt_score": 40,
+          "bert_score": 29,
+          "domain_score": 20
+        },
+        "19b8cef531d65a4a": {
+          "analyzed_at": "2026-01-05T11:54:37.566930",
+          "verdict": "Legit",
+          "total_score": 99,
+          "from_address": "Hassaan <hassaanibrm77@gmail.com>",
+          "subject": "Test",
+          "date": "Mon, 5 Jan 2026 11:54:01 +0500",
+          "gpt_verdict": "Legitimate",
+          "gpt_score": 40,
+          "bert_score": 29,
+          "domain_score": 20
+        },
+        "19b8cf01bafa00e0": {
+          "analyzed_at": "2026-01-05T11:55:28.157684",
+          "verdict": "Legit",
+          "total_score": 99,
+          "from_address": "Indeed <alert@indeed.com>",
+          "subject": "Frontend Developer (React.js) at DK Digital Solutions and 29 more jobs in Karachi for you!",
+          "date": "Mon, 05 Jan 2026 06:55:03 +0000",
+          "gpt_verdict": "Legitimate",
+          "gpt_score": 40,
+          "bert_score": 29,
+          "domain_score": 20
+        }
+      },
+      "stats": {
+        "total_analyzed": 3,
+        "legit_count": 3,
+        "suspicious_count": 0,
+        "phishing_count": 0,
+        "last_updated": "2026-01-05T11:55:28.157721"
+      }
+    }
+  },
+  "system_start_time": "2025-11-26T02:08:01.954894"
+}
